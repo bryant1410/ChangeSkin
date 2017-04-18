@@ -77,10 +77,10 @@ public class MyApplication extends Application
 ```
 别忘了注册。
 
-####2、继承BaseSkinActivity
+#### 2、继承BaseSkinActivity
 让所有的需要换肤的界面的Activity，继承自`com.zhy.changeskin.base.BaseSkinActivity`。
 
-####3、对于需要换肤的资源命名使用skin开头
+#### 3、对于需要换肤的资源命名使用skin开头
 
 比如你的某个控件的背景需要换肤：
 
@@ -156,7 +156,7 @@ SkinManager.getInstance().removeAnySkin();
 ```
 重置为初始状态。
 
-###（3）应用内换肤
+### （3）应用内换肤
 
 #### 1、准备资源apk
 
